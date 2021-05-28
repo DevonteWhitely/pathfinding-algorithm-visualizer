@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+npm-debug.log
+.DS_Store
+/*.env
 /.pnp
 .pnp.js
 
