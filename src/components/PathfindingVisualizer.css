@@ -1,0 +1,43 @@
+.grid {
+    margin: 25px 0 0;
+}
+
+button {
+    background-color: rgb(12, 53, 71);
+    border-radius: 12px;
+    border: black;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: rgb(12, 53, 71);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 12px;
+}
+
+#out-of-order {
+    color: red;
+    text-decoration: line-through;
+}

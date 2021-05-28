@@ -1,0 +1,58 @@
+.Header {
+    margin-bottom: 50px;
+}
+
+.message {
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.node-isStartNode {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+}
+
+.node-isEndNode {
+    background-color: green;
+    width: 25px;
+    height: 25px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+}
+
+.node-isWall {
+    background-color: rgb(12, 53, 71);
+    width: 25px;
+    height: 25px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+}
+
+.node-isUnvisited {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+}
+
+.node-isPathNode {
+    background-color: yellow;
+    width: 25px;
+    height: 25px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+}
+
+.grid-display {
+    display: grid;
+    grid-template-columns: 
+    30px 80px 
+    30px 80px 
+    30px 80px 
+    30px 80px
+    30px 80px;
+    justify-content: center;
+}
