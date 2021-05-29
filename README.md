@@ -1,3 +1,5 @@
+#Pathfinding-Algorithm-Visualizer
+
 Pathfinding algorithm visualizer created with React.js that visualizes the shortest path between two nodes using various pathfinding algorithms.
 
 <a href="https://pathfinding-visualizer21.herokuapp.com">https://pathfinding-visualizer21.herokuapp.com</a>
